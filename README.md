@@ -1,2 +1,8 @@
 # Covid-19-Data-Viewer
-is a Program Covid-19 Data Viewer
+
+**Covid-19-Data-Viewer เป็นโปรแกรมที่ทำมาเพื่อ Monitor ข้อมูลไวรัส Covid-19(Coronavirus)**
+อย่างเช่นข้อมูลการติดเชื้อรายวัน หรือเคสผู้ติดเชื้อทั้งหมดในประเทษ
+##ฟีเจอร์
+1. สามาถเลือกประเทษที่เราจะดูข้อมูลได้และข้อมูลจะไปแสดงที่ Data Grid
+#ขอบคุณ
+**ขอบคุณ** [Novel Covid-19 api สำหรับข้อมูลครับ](github.com/NovelCOVID/API)
