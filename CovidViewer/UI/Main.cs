@@ -25,7 +25,7 @@ namespace CovidViewer.UI
         {
             try
             {
-                var Data = await _GetCovid.GetData(CountryList.SelectedValue.ToString());
+                var Data = await _GetCovid.GetData((string)CountryList.SelectedValue);
                 BinData.Add(Data);
 
                 DataBox.DataSource = BinData;
@@ -49,8 +49,7 @@ namespace CovidViewer.UI
 
         private void ClearButton_Click(object sender, EventArgs e)
         {
-            BinData.DataSource = null;
-            DataBox.Rows.Clear();
+            BinData.Clear();
         }       
 
         private void DataBox_CellContentClick(object sender, DataGridViewCellEventArgs e)
